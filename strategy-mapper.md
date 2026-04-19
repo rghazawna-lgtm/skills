@@ -1,12 +1,16 @@
-# Strategy Mapper
+# strategy-mapper
 
-## Description
-Matches a qualified lead to one of the 4 operational models in North Macedonia/Balkans.
+Show a strategy mapping for the given company profile.
+
+## Examples
+
+- "What is the best entry model for Blackview?"
+- "Map a strategy for a PCBA manufacturer"
 
 ## Instructions
-Based on the Prospector's data, select the best fit:
-1. **Space Model**: Best for simple warehousing needs.
-2. **Setup Support**: Best for companies needing local production lines.
-3. **Operational Model**: Best for deep joint-venture partnerships.
-4. **Service Center**: Best for brands needing technical repair/support in the EU.
-**Constraint**: Explain *why* this model was chosen in one sentence.
+
+Call the `run_js` tool with the following exact parameters:
+
+- data: A JSON string with the following fields
+  - model_selection: Based on the profile, select from (Space Model, Setup Support, Operational Model, Service Center).
+  - reasoning: One sentence explaining why this model fits the lead.
