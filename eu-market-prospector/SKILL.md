@@ -41,6 +41,13 @@ Decision Rules:
 - If company already has EU customers → Model = Operational
 - If company sells physical devices → Model = Service Center
 
+Model Priority Rules:
+
+- If company sells physical devices → Model = Service Center
+- Else if company already has EU customers → Model = Operational
+- Else → Model = Setup
+  
+
 Output format:
 
 Company: <name>  
