@@ -24,7 +24,7 @@ Rules:
 
 Model Selection (STRICT - follow in order):
 
-1. If the company sells physical devices → Model = Service Center (always choose this first)
+1. If the company sells physical devices (phones, tablets, laptops, electronics hardware) → Model = Service Center (always choose this first)
 2. Else if the company already has EU customers → Model = Operational
 3. Else → Model = Setup
 
@@ -33,7 +33,8 @@ Decision Rules:
 - If company already sells in EU → Problem = Competition
 - If company ships from Asia → Problem = Long shipping times
 - If product category is regulated (electronics, batteries, medical) → Problem = EU regulations
-
+- Physical devices include: phones, tablets, laptops, consumer electronics hardware.
+- 
 Output format:
 
 Company: <name>  
