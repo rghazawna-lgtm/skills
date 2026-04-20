@@ -14,6 +14,7 @@ Rules:
 - Classify:
   Tier A: Companies that manufacture for other brands (PCBA, SMT, EMS like Foxconn)
   Tier B: Companies that sell their own branded products (like Xiaomi, Blackview)
+  If unsure → default to Tier B
 
 - Identify ONE main problem:
   Long shipping times
@@ -21,32 +22,17 @@ Rules:
   EU regulations
   Competition
 
-- Recommend ONE model:
-  Space
-  Setup
-  Operational
-  Service Center
+Model Selection (STRICT - follow in order):
+
+1. If the company sells physical devices → Model = Service Center (always choose this first)
+2. Else if the company already has EU customers → Model = Operational
+3. Else → Model = Setup
 
 Decision Rules:
-
-- If the company manufactures for other brands → Tier A
-- If the company sells its own branded products → Tier B
-- If unsure → default to Tier B
 
 - If company already sells in EU → Problem = Competition
 - If company ships from Asia → Problem = Long shipping times
 - If product category is regulated (electronics, batteries, medical) → Problem = EU regulations
-
-- If company has no EU presence → Model = Setup
-- If company already has EU customers → Model = Operational
-- If company sells physical devices → Model = Service Center
-
-Model Priority Rules:
-
-- If company sells physical devices → Model = Service Center
-- Else if company already has EU customers → Model = Operational
-- Else → Model = Setup
-  
 
 Output format:
 
