@@ -28,6 +28,20 @@ Context Binding (STRICT):
 - If Best Model = Setup → mention local presence or company setup
 - If Best Model = Operational → mention scaling operations or team
 
+Message Quality Rules:
+
+- Be specific, not generic
+- Do NOT state obvious facts
+- Frame the problem as a business impact (customer experience, returns, support load)
+
+- Instead of "shipping times are long"
+  → mention delays, after-sales gaps, or EU customer expectations
+
+- Instead of "might help"
+  → suggest a clear improvement (faster support, local repairs, reduced returns)
+
+- WhatsApp must sound professional but casual (no slang like "pain")
+  
 Tone Rules:
 
 - Sound human, not AI
