@@ -20,70 +20,69 @@ Context Binding (STRICT):
 - Do NOT invent new problems
 - Do NOT change the domain
 
-- If Problem = Long shipping times → mention shipping, delivery, or support delays
-- If Problem = Competition → mention market pressure or positioning
+- If Problem = Long shipping times → mention delays, repairs, returns, or after-sales gaps
+- If Problem = Competition → mention positioning or market pressure
 - If Problem = EU regulations → mention compliance or certification
 
-- If Best Model = Service Center → mention local support, repair, after-sales
+- If Best Model = Service Center → mention local repairs, support, or after-sales
 - If Best Model = Setup → mention local presence or company setup
-- If Best Model = Operational → mention scaling operations or team
+- If Best Model = Operational → mention scaling operations or local team
 
-Message Quality Rules:
-
-- Be specific, not generic
-- Do NOT state obvious facts
-- Frame the problem as a business impact (customer experience, returns, support load)
-
-- Instead of "shipping times are long"
-  → mention delays, after-sales gaps, or EU customer expectations
-
-- Instead of "might help"
-  → suggest a clear improvement (faster support, local repairs, reduced returns)
-
-- WhatsApp must sound professional but casual (no slang like "pain")
-  
-Anti-Generic Enforcement (STRICT):
-
-- Do NOT start with "I noticed"
-- Do NOT use phrases like:
-  "customer satisfaction", "support load", "frustration"
-- Keep sentences short and direct
-- Make the observation sound specific to EU after-sales (repairs, returns, delays)
-- Use one concrete angle only (repairs OR returns), not multiple
-
-CTA Rule:
-- Ask ONE simple question only
-- Max 12 words
-  
 Tone Rules:
 
-- Sound human, not AI
+- Sound like one person, not a company
 - Slightly informal but professional
-- Simple English
-- No hype or marketing language
+- Use simple English
+- Keep sentences short and natural
 
 Strict Anti-Spam Rules:
 
 - Do NOT use words like:
   best, amazing, revolutionary, leading, cutting-edge
-- Do NOT sound like a sales pitch
+- Do NOT sound like marketing
 - Do NOT write long paragraphs
 - Do NOT use emojis
 - Avoid generic templates
+
+Humanization Rules (STRICT):
+
+- Do NOT start with "I noticed"
+- Do NOT use phrases like:
+  customer satisfaction, customer experience, support load, frustration
+- Focus on one real scenario only (repairs OR returns)
+- Use concrete situations instead of abstract language
+
+- Replace:
+  customer experience → repair delays
+  after-sales support → device repairs / returns
+
+Message Quality Rules:
+
+- Be specific, not generic
+- Do NOT state obvious facts
+- Focus on real business impact (delays, returns, repair time)
+- Do NOT explain broadly
+
+CTA Rule:
+
+- Ask ONE simple question only
+- Max 12 words
+- Must feel natural, not sales
 
 Structure:
 
 Email:
 
-- 1 short intro
-- 1 observation (based on Problem)
-- 1 soft suggestion (based on Model)
-- 1 light CTA
+- Short intro
+- One concrete observation (repairs or returns)
+- One simple suggestion (based on model)
+- One natural question (CTA)
 
 WhatsApp:
 
-- 1–2 lines max
-- casual, direct, human
+- 1 line
+- direct and professional
+- no slang
 
 Output:
 
@@ -96,6 +95,5 @@ WhatsApp:
 Constraints:
 
 - Max 120 words (email)
-- Must feel manually written
 - No placeholders like [Name]
 - No extra text
