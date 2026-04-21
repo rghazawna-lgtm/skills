@@ -42,6 +42,19 @@ Message Quality Rules:
 
 - WhatsApp must sound professional but casual (no slang like "pain")
   
+Anti-Generic Enforcement (STRICT):
+
+- Do NOT start with "I noticed"
+- Do NOT use phrases like:
+  "customer satisfaction", "support load", "frustration"
+- Keep sentences short and direct
+- Make the observation sound specific to EU after-sales (repairs, returns, delays)
+- Use one concrete angle only (repairs OR returns), not multiple
+
+CTA Rule:
+- Ask ONE simple question only
+- Max 12 words
+  
 Tone Rules:
 
 - Sound human, not AI
